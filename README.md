@@ -12,8 +12,9 @@
 ### 关键特性
 
 * ARM Cortex-A53 Dual Core
-
-
+* ARM AIPU 0.25TOPS
+* HIFI4 400MHz Dual Core
+* Tina OS
 
 ### [资源收录](https://github.com/SoCXin)
 
