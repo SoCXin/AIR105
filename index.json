@@ -1,0 +1,34 @@
+{
+    "type":"SoC",
+    "name":"R329",
+    "title": "Gowin Cortex-M3 R329 SoC",
+    "description":"Gowin FPGA Cortex-M3 SoC",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"Cortex-M3",
+        "Freq": 80,
+        "DMIPS": 100,
+        "CoreMark": 250
+    },
+    "manufacturer": {
+        "vendor":"Gowin",
+        "homepage": "http://www.gowinsemi.com.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/R329.git"
+    },
+    "series":["R329-2","R329-2C","R329-4","R329-4C"],
+    "package":["LQFP64M","QFN68","QFN48","QFN28"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "price":[4,16],
+    "keywords": [
+        "dev-platform",
+        "FPGA",
+        "Cortex-M",
+        "Gowin",
+        "DAC","SDIO","CAN","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
