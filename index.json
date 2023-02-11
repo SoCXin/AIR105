@@ -6,9 +6,9 @@
     "Core": {
         "CoreNum": 1,
         "Core":"Cortex-M4",
-        "Fmax":204,
-        "DMIPS": 160,
-        "CoreMark": 240
+        "Fmax":192,
+        "DMIPS": 450,
+        "CoreMark": 472
     },
     "manufacturer": {
         "vendor":"luatos",

@@ -1,7 +1,7 @@
 ﻿# [AIR105](https://www.soc.xin/AIR105)
 
-* [luatos](https://wiki.luatos.com): [Cortex-M4](https://github.com/SoCXin/Cortex)
-* [L3R3](https://github.com/SoCXin/Level): 204 MHz , [￥8.8](https://item.taobao.com/item.htm?spm=a1z0d.6639537/tb.1997196601.4.77dd74844GomGa&id=681766418592)
+* [luatos](https://wiki.luatos.com): [Cortex-M4F](https://github.com/SoCXin/Cortex)
+* [L3R3](https://github.com/SoCXin/Level): 192 MHz , [￥8.8](https://item.taobao.com/item.htm?spm=a1z0d.6639537/tb.1997196601.4.77dd74844GomGa&id=681766418592)
 
 ## [简介](https://github.com/SoCXin/AIR105/wiki)
 
@@ -9,7 +9,7 @@
 
 ### 关键参数
 
-* 204 MHz Cortex-M4
+* 192 MHz Cortex-M4F
 * 640KB SRAM + 4MB Flash
 
 ## [资源收录](https://github.com/SoCXin)
@@ -20,6 +20,8 @@
 
 ## [选型建议](https://github.com/SoCXin/AIR105)
 
-[AIR105](https://github.com/SoCXin/AIR105)
+[AIR105](https://github.com/SoCXin/AIR105) 跑分情况[coremark](https://wiki.luatos.com/chips/coremark/README.html)
+
+* [AIR32F103](https://github.com/SoCXin/AIR32F103)
 
 ## [www.SoC.xin](http://www.SoC.Xin)
