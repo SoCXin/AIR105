@@ -1,34 +1,37 @@
 {
-    "type":"SoC",
-    "name":"R329",
-    "title": "Gowin Cortex-M3 R329 SoC",
-    "description":"Gowin FPGA Cortex-M3 SoC",
-    "version":"1.0.0",
+    "type":"MCU",
+    "name":"AIR105",
+    "title": "luatos AIR105 MCU",
+    "description":"luatos MCU",
     "Core": {
-        "num": 1,
-        "type":"Cortex-M3",
-        "Freq": 80,
-        "DMIPS": 100,
-        "CoreMark": 250
+        "CoreNum": 1,
+        "Core":"Cortex-M4",
+        "Fmax":204,
+        "DMIPS": 160,
+        "CoreMark": 240
     },
     "manufacturer": {
-        "vendor":"Gowin",
-        "homepage": "http://www.gowinsemi.com.cn"
+        "vendor":"luatos",
+        "homepage":"https://www.luatos.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoCXin/R329.git"
+        "url": "https://github.com/SoCXin/AIR105.git"
     },
-    "series":["R329-2","R329-2C","R329-4","R329-4C"],
-    "package":["LQFP64M","QFN68","QFN48","QFN28"],
-    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
-    "price":[4,16],
+    "version":"1.0.0",
+    "series":["AIR105"],
+    "package":["QFN88"],
+    "peripheral": ["CAN","ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
     "keywords": [
-        "dev-platform",
-        "FPGA",
-        "Cortex-M",
-        "Gowin",
-        "DAC","SDIO","CAN","I2C","RTC","SPI",
-        "3.6V","1.8V"
+        "Cortex-M4",
+        "luatos",
+        "CAN","ADC","I2C","SPI","USART"
     ]
 }
+
